@@ -27,11 +27,11 @@ body {
 }
 
 .btn-black {
-  @apply rounded-full bg-black text-white py-2 px-5 capitalize;
+  @apply rounded-full bg-[#303030] text-white py-2 px-5 capitalize;
 }
 
 .btn-blue {
-  @apply rounded-full bg-blue-600 text-white py-2 px-5 capitalize;
+  @apply rounded-full bg-[#20888F] text-white py-2 px-5 capitalize;
 }
 
 h1 {

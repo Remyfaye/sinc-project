@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="bg-white mt-10 lg:flex items-center">
+      <div className="bg-white mt-4 lg:flex items-center">
         {/* left */}
         <div className="  lg:w-[60%] lg:px-20 lg:pl-20 p-5">
           <h1>SINC Partners is a service incubation company</h1>

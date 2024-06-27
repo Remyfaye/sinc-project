@@ -1,19 +1,25 @@
 export const navItems = [
   {
-    name: "About",
+    name: "About ",
   },
 
   {
-    name: "About",
+    name: "SIP",
   },
   {
-    name: "About",
+    name: "Studio",
   },
   {
-    name: "About",
+    name: "SEEQ",
   },
   {
-    name: "About",
+    name: "Platforms",
+  },
+  {
+    name: "Initiatives",
+  },
+  {
+    name: "More",
   },
 ];
 
@@ -86,6 +92,7 @@ export const serviceIncubation = [
 export const coFound = [
   {
     icon: "1",
+    bgColor: "[#303030]",
     heading: "We Ideate",
     content:
       "We internally generate concepts and ideas that help solve problems in our thesis areas, after which we proceed to develop a nano/micro MVP (usually having as low as 30 functions to as high as 100 functions",
@@ -93,12 +100,15 @@ export const coFound = [
 
   {
     icon: "2",
+    bgColor: "orange-400",
     heading: "You Validate",
     content:
       "You join our 3 months  inResidence program as a business expert to run the operations or as a technical expert to further the development and validate the idea with an average monthly revenue of $1k or 10,000 users and/or an MVP of at least 150 functions ",
   },
   {
-    icon: "2",
+    icon: "3",
+    bgColor: "pink-200 ",
+
     heading: "You Co-own",
     content:
       "After successful validation and demo day at the end of the EIR program, we move those with perfect fit to become co-founders of the product they validated as CEO & CTO, each owning 20% of the venture.",

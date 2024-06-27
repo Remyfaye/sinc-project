@@ -43,10 +43,15 @@ const Content = ({
             <div
               className={
                 startLayout
-                  ? " bg-white flex flex-col gap-3 p-5 rounded-[10px]"
+                  ? " bg-white flex my-4 flex-col gap-3 p-5 rounded-[10px]"
                   : "flex items-center gap-5 flex-col bg-white p-5 rounded-[10px]"
               }
             >
+              <div
+                className={`text-center flex items-center justify-center text-xl rounded-full text-white bg-pink-300 h-[60px] w-[60px]`}
+              >
+                {item.icon}
+              </div>
               <h2 className="font-bold">{item.heading}</h2>
               <h2>{item.content}</h2>
             </div>

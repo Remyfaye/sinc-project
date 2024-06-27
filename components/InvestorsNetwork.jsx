@@ -15,7 +15,7 @@ const InvestorsNetwork = () => {
           <>
             <div
               className={
-                "flex border gap-3 flex-col border-black/30 p-5 rounded-[10px]"
+                "flex border gap-3 my-5 flex-col border-black/30 p-5 rounded-[10px]"
               }
             >
               <p className="font-bold">{item.heading}</p>
