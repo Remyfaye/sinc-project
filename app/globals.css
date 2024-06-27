@@ -17,17 +17,26 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-gray-100 h-screen;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.btn-black {
+  @apply rounded-full bg-black text-white py-2 px-5 capitalize;
+}
+
+.btn-blue {
+  @apply rounded-full bg-blue-600 text-white py-2 px-5 capitalize;
+}
+
+h1 {
+  @apply font-bold text-4xl;
+}
+.content-header {
+  @apply font-semibold text-3xl;
 }
