@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>footer</h1>
+    <div className="mt-10">
+      <img src="/footer.png" alt="" />
     </div>
   );
 };

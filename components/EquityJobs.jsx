@@ -8,7 +8,11 @@ const EquityJobs = () => {
         <div className="m-5 lg:m-0 flex flex-col gap-3 bg-white rounded-[10px] p-3">
           {/* logo */}
 
-          <img src="" alt="" />
+          <img
+            className="w-[10rem] h-[5rem] object-cover"
+            src="/ejob-logo.png"
+            alt=""
+          />
 
           {/* text */}
           <h2>

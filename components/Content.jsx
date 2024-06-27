@@ -15,6 +15,8 @@ const Content = ({
   equityJobs,
   blogs,
   featuredIn,
+  aof,
+  studioPortfolio,
 }) => {
   return (
     <section className="lg:px-20 my-[4rem]">
@@ -55,11 +57,23 @@ const Content = ({
       {/* investorsNetwork content */}
       {investorsNetwork && <InvestorsNetwork />}
 
+      {/* investorsNetwork content */}
+      {aof && <img src="/cards.png" alt="" />}
+
       {/*equity jobs */}
       {equityJobs && <EquityJobs />}
 
       {/*blogs*/}
       {blogs && <BlogComponent />}
+
+      {/*our studio portfolio*/}
+      {studioPortfolio && (
+        <img
+          className="lg:max-w-5xl mx-auto overflow-hidden"
+          src="/portfolio.png"
+          alt=""
+        />
+      )}
 
       {/*featuredIn */}
       {featuredIn && <FeaturedIn />}

@@ -50,7 +50,7 @@ const Landing = () => {
           subtitle={
             "In our quest to help make success available to everyone, we have initial strategic direction to focus on these five (5) key areas at the la"
           }
-          content={landingContent2}
+          aof
         />
 
         <Content
@@ -69,6 +69,12 @@ const Landing = () => {
           content={serviceIncubation}
           serviceIncubation
           startLayout
+        />
+
+        <Content
+          title={"Our Studio Portfolio"}
+          subtitle={"Our 2024 Service Incubator Portfolio Companies "}
+          studioPortfolio
         />
 
         <Content

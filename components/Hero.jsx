@@ -17,11 +17,7 @@ const Hero = () => {
 
         {/* right */}
         <div className="bg-black/70 inset-0">
-          <img
-            className=""
-            alt=""
-            src="https://s3-alpha-sig.figma.com/img/abb0/c7a2/0efff7a9c9d7f75651fd8441c39f2496?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GfmppBlskZzg6fxaErrTzJlB9u~2xkL8Vm71LF-PEIrXgBI-xD~6uxmU1Q-8n2AdVQPD~wTY8a5wrWoQk60CfkwSV0o6nUmDRuzsKH~uzuZ26Kw4cRdAn28g9-W~xGp9i7gaKdQTfuZ21wCDFNIEu7g3LLsegAgtvIqeMfkNwb55GoB6odU85XBuYSKbOUhCg-ytHYhzr9KwGi70wydoea5zO5GyU0u8eU8mW0sF9wU32no0BcwFn5ZP42bZhk32jjsfNeqZc-GUQStlCknLTusZ1no-8oZPcCqNn757YVIlmD9RBVKp0DhveeTv-W~dTtGvDvR1ElCjugS0mWiqpg__"
-          />
+          <img className="" alt="" src="/bg.png" />
         </div>
       </div>
     </>

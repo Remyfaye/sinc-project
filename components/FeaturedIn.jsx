@@ -3,7 +3,7 @@ import React from "react";
 const FeaturedIn = () => {
   return (
     <div>
-      <h1>featred in</h1>
+      <img src="/frame.png" alt="" />
     </div>
   );
 };
