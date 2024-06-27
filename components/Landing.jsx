@@ -13,16 +13,18 @@ import Content from "./Content";
 const Landing = () => {
   return (
     <div>
-      <section className="w-[90%] rounded-xl lg:max-w-3xl gap-4 p-5 mx-auto my-10 bg-white lg:rounded-[5px] flex flex-col justify-center items-center">
+      <section className="w-[90%] rounded-xl lg:max-w-3xl gap-5 p-5 mx-auto my-10 bg-white  flex flex-col justify-center items-center">
         <p className="text-center">
           Nigeria and Africa has a massive network effect that have not be fully
           utilized. With Nigerians/Africans in every country and territory of
           the world, we can scale an African business to 100+ countries in few
           weeks"
         </p>
-        <div className="text-center">
+        <div className="text-center ">
           <p>Daniel Izeghs Oratokhai</p>
-          <p className="text-gray-600">Managing Partner at SINC Partners Ltd</p>
+          <p className="text-gray-400 my-2">
+            Managing Partner at SINC Partners Ltd
+          </p>
         </div>
       </section>
 

@@ -44,11 +44,14 @@ const Content = ({
               className={
                 startLayout
                   ? " bg-white flex my-4 flex-col gap-3 p-5 rounded-[10px]"
-                  : "flex items-center gap-5 flex-col bg-white p-5 rounded-[10px]"
+                  : "flex items-center gap-5 my-5 flex-col bg-white p-5 rounded-[10px]"
               }
             >
               <div
-                className={`text-center flex items-center justify-center text-xl rounded-full text-white bg-pink-300 h-[60px] w-[60px]`}
+                className={
+                  item.icon &&
+                  "text-center flex items-center justify-center text-xl rounded-full text-white bg-pink-300 h-[60px] w-[60px]"
+                }
               >
                 {item.icon}
               </div>

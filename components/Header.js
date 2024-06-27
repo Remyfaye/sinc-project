@@ -4,11 +4,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex justify-between pt-5 lg:px-20">
+    <div className="flex justify-between pt-5 lg:px-20 px-5">
       {/* left */}
       <div className="flex gap-5 items-center">
         {/* logo*/}
-        <div>
+        <div className="flex justify-between ">
           <Image width={100} height={100} alt="" src="/logo.png" />
         </div>
 
@@ -27,6 +27,14 @@ const Header = () => {
         <button className="btn-blue">SINC With Us</button>
         <button className="btn-black">Apply to SIP 1.0</button>
       </div>
+
+      <Image
+        className="lg:hidden "
+        width={55}
+        height={55}
+        alt=""
+        src="/menu.png"
+      />
     </div>
   );
 };
