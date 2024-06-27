@@ -55,6 +55,14 @@ const Content = ({
               >
                 {item.icon}
               </div>
+              {item.serviceIcon && (
+                <img
+                  className="w-[2rem] h-[2rem] object-cover"
+                  src={item.serviceIcon}
+                  alt=""
+                />
+              )}
+
               <h2 className="font-bold">{item.heading}</h2>
               <h2>{item.content}</h2>
             </div>
